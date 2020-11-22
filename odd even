@@ -1,0 +1,12 @@
+s="Please enter an integer number x"
+s1="even"
+s2="odd"
+print(s)
+try:
+    x = int(input("Enter x:"))
+    if(x%2==0):
+        print(s1)
+    else:
+        print(s2)
+except ValueError:
+    print("error")
